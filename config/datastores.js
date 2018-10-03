@@ -32,7 +32,7 @@ module.exports.datastores = {
   *                                                                          *
   ***************************************************************************/
 
-  default: {
+  node_financial_mysql: {
 
     /***************************************************************************
     *                                                                          *
@@ -48,8 +48,12 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    // adapter: 'sails-mysql',
-    // url: 'mysql://user:password@host:port/database',
+    adapter: 'sails-mysql',
+    host: 'localhost',
+    user: 'node_financial',
+    password: '21kAPZ21',
+    database: 'node_financial'
+
 
   },
 
